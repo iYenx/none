@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUMI</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+    <!-- navbar -->
+    <header class="all">
+        <div class="logo">HUMI</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#one" class="active">HOME</a></li>
+                <li><a href="#first">HUMI_01</a></li>
+                <li><a href="#two">HUMI_02</a></li>
+                <li><a href="#three">HUMI_03</a></li>
+                <li><a href="#four">HUMI_04</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+    <!-- home -->
+    <section id="home">
+        <div class="main"></div>
+    </section>
+
+    <section id="humione">
+        <div class="hunionebg"></div>
+    </section>
+
+    <!--- HUMI  --->
+    <section id="one"></section>
+
+    <!--- HUMI 01 --->
+    <section id="first">
+        <div class="row"></div>
+    </section>
+
+    <!--- HUMI 02 --->
+    <section id="two">
+        <div class="row"></div>
+    </section>
+     
+    <!--- HUMI 03 --->
+    <section id="three">
+        <div class="row"></div> 
+    </section>      
+
+    <!--- HUMI 04 --->
+    <section id="four">
+        <div class="row"></div>  
+    </section>        
+        
+</body>
+</html>
